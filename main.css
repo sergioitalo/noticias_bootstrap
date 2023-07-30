@@ -1,0 +1,336 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #0B51DA;
+}
+
+form {
+  width: 180px;
+}
+.form-control {
+  border: 1px solid #ccc;
+  transition: all 0.5s ease-in;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ccc;
+  background-color: #ebedef;
+  
+}
+
+
+#post-principal {
+  border-bottom: 1px solid #ebedef;
+  padding-bottom: 16px;
+}
+
+#post-principal h2 {
+  font-size:42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#post-principal ul li h2 {
+  margin-bottom: 8px;
+}
+
+#post-principal .bullets h2 {
+  font-size: 18px;
+  color: #2f3134;
+}
+
+#destaques-jornalismo article {
+  margin-bottom: 30px;
+}
+
+#destaques, #destaques-jornalismo {
+  padding: 30px 0;
+}
+
+#destaques-jornalismo img {
+  width: 100%;
+}
+
+
+#post-principal ul,
+#destaques-jornalismo ul li,
+#destaques-esporte ul li,
+#destaques-entretenimento ul li{
+  list-style: none;
+}
+
+#post-principal ul li::before,
+#destaques-jornalismo ul li::before,
+#destaques-esporte ul li::before,
+#destaques-entretenimento ul li::before {
+  content: "•"; 
+  color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  position: absolute;
+
+}
+
+#destaques-entretenimento ul li::before {
+  color: #FF6700;
+}
+
+#destaques-esporte ul li::before {
+  color: #06AA48;
+}
+  
+
+.bullets {
+  padding-left: 20px;
+  margin-top: 16px;
+}
+
+#destaques img {
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+#destaques-jornalismo h2, #post-principal h2 {
+  color: #c4170c;
+}
+
+.col-lg-3 {
+  border-left: 1px solid #ebedef;
+}
+
+
+
+#destaques-jornalismo h2,
+#destaques-esporte h2,
+#destaques-entretenimento h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#destaques-jornalismo .bullets h2,
+#destaques-esporte .bullets h2,
+#destaques-entretenimento .bullets h2{
+  color: #2f3134;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#destaques-esporte h2 {
+  color: #06AA48;
+}
+
+#destaques-entretenimento h2 {
+  color: #FF6700;
+}
+
+#destaques-esporte,
+#destaques-entretenimento {
+  padding-left: 16px;
+}
+
+#destaques-esporte img,
+#destaques-entretenimento img{
+  width: 100%;
+}
+
+
+.img-1 {
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/14/08/13/video-1668906_1280.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/10/04/59/living-room-1085987_1280.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-3 {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/02/05/audience-1866738_1280.jpg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#menu-esporte {
+  color: #06AA48;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#menu-jornalismo  {
+  font-size: 18px;
+  font-weight: bold;
+  color: #c4170c;
+}
+
+
+
+
+#menu-entretenimento {
+  color: #FF6700;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+#noticias .card {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ebedef;
+
+}
+
+#noticias-jornalismo h2 {
+  color: #c4170c;
+  font-weight: bold;
+}
+
+#noticias-esporte h2 {
+  color: #06AA48;
+  font-weight: bold;
+}
+
+#noticias-entretenimento h2 {
+  color: #FF6700;
+  font-weight: bold;
+}
+
+#post-principal-entretenimento .card,
+#post-principal-esporte .card,
+#post-principal-jornalismo .card {
+  border-bottom: none;
+  padding-bottom: 0;
+  border-radius: 3px;
+}
+
+#post-principal-entretenimento .card-body,
+#post-principal-esporte .card-body,
+#post-principal-jornalismo .card-body {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#post-principal-entretenimento .card-body {
+  background-color: #FF6700;
+ 
+  
+  
+}
+
+#post-principal-esporte .card-body {
+  background-color: #06AA48;
+  
+  
+}
+
+#post-principal-jornalismo .card-body {
+  background-color: #c4170c;
+ 
+  
+}
+
+#post-principal-jornalismo .card-body,
+#post-principal-esporte .card-body,
+#post-principal-entretenimento .card-body {
+  color: #ebedef;
+  font-weight: bold;
+}
+
+#noticias-jornalismo a,
+#noticias-esporte a,
+#noticias-entretenimento a {
+  display: block;
+  margin-bottom: 16px;
+}
+
+
+.post-jornalismo .card-body,
+.post-esporte .card-body,
+.post-entretenimento .card-body {
+  border: none;
+}
+
+.post-jornalismo .card,
+.post-esporte .card,
+.post-entretenimento .card{
+  border: none;
+  border-radius: 0;
+}
+
+.post-jornalismo p {
+  color: #c4170c;
+  font-weight: bold;
+}
+
+.post-jornalismo img,
+.post-esporte img,
+.post-entretenimento img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.post-esporte p {
+  color: #06AA48;
+  font-weight: bold;
+}
+
+.post-entretenimento p {
+  color: #FF6700;
+  font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width:991px) {
+
+  #post-principal h2 {
+      font-size: 32px;
+  
+  }
+
+  .col-lg-3 {
+      border-left: none;
+  }
+
+  #destaques-esporte,
+  #destaques-entretenimento {
+  padding-left: 0px;
+  }
+
+  form {
+      margin-top: 16px;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+}
